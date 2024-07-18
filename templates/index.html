@@ -5,19 +5,19 @@
 </head>
 <body>
     <center>
-    <h1 style="color:Blue">Ваш вес на разных планетах</h1>
+   <h1 style="color:Blue">Ваш вес на разных планетах</h1>
     <form method="post">
-        Введите ваш вес на земле: <input type="number" name="radius" required><br>
+        <b>Введите ваш вес на земле</b>: <input type="number" name="radius" required><br>
         <input type="submit" value="Рассчитать">
     </form>
     {% if volume %}
-        <p>Ваш вес на Меркурии: {{ volume1}} кг</p>
-        <p>Ваш вес на Венера: {{ volume2}} кг</p>
-        <p>Ваш вес на Марсе: {{ volume3}} кг</p>
-        <p>Ваш вес на Юпитере: {{ volume4}} кг</p>
-        <p>Ваш вес на Сатурне: {{ volume5}} кг</p>
-        <p>Ваш вес на Уране: {{ volume6}} кг</p>
-        <p>Ваш вес на Нептуне: {{ volume7}} кг</p>
+        <p> <b>Ваш вес на Меркурии: {{ volume1}} кг</b></p>
+        <p> <b>Ваш вес на Венера: {{ volume2}} кг</b></p>
+        <p> <b>Ваш вес на Марсе: {{ volume3}} кг</b></p>
+        <p> <b>Ваш вес на Юпитере: {{ volume4}} кг</b></p>
+        <p> <b>Ваш вес на Сатурне: {{ volume5}} кг</b></p>
+        <p> <b>Ваш вес на Уране: {{ volume6}} кг</b></p>
+        <p> <b>Ваш вес на Нептуне: {{ volume7}} кг</b></p>
     {% endif %}
     </center>
 </body>
